@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+}
+.btn {
+  padding: 0.5rem 1rem;
+  /* border: none; */
+  border-radius: 10px;
+  border: 2px solid;
+  font-size: 0.9rem;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 10rem;
+  max-height: 100%;
+  height: 3rem;
+}
+.footer a {
+  text-decoration: none;
+}
